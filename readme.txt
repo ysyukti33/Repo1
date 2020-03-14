@@ -15,8 +15,6 @@ Release Path:
 	a. RageLearningStore-1.0-jar-with-dependencies.jar
 	b. config.properties
 	
-3. test_converter.sh file:-
-	a. test_converter.sh
 
 Deployment steps:
 1. Extraction Object Sources Deployment:-
@@ -25,6 +23,7 @@ Deployment steps:
 	c. Copy the sources sr3_xce_Services-0.0.1-SNAPSHOT-jar-with-dependencies.jar, config.properties and lib folder from release path 
 	    to /opt/application/wildfly-10.1.0.Final/ci/ExtractionObject
 	d. Replace the DB properties from config.properties according to the environment.
+	e. testing file
 
 2. Learning Store Sources Deployment:-
 	a. First navigate to the /opt/application/wildfly-10.1.0.Final/ci/LearningStore path
@@ -35,6 +34,5 @@ Deployment steps:
 	S3 access key(learning.s3.accessKey) and S3 secret key(learning.s3.secretKey) in config.properties file according to environment.
 
 3. Test converter file:-
-	a. Navigate to /opt/application/wildfly-10.1.0.Final/ci/Extraction/Extractor
-	b. Take back up of old test_converter.sh file
-	c. Copy new test_converter.sh file
+	a. Tracking files
+
